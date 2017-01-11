@@ -7,5 +7,10 @@
 	left: 0px;
 	top: 0px;
 	min-height: 100%;
-	min-width: 1040px;
+	min-width: 500px;
+}
+
+#logo2 {
+	width: 30px;
+	height: 30px;
 }
