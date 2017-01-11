@@ -4,6 +4,7 @@
 html{
 	height:100%;
 	margin:0;
+	padding: 0;
 }
 
 body{
@@ -12,7 +13,11 @@ body{
 	margin:0;
 	margin-bottom:50px;
 }
-
+.wrap {
+	min-height:100%;
+	height: auto;
+	margin: 0 auto -50px;
+}
 .content{
 	min-height:100%;
 }
@@ -34,13 +39,18 @@ body{
 	width: 30px;
 	height: 30px;
 }
+#banner {
+	width: 100%;
+	height: 350px;
+	min-width: 600px;
+}
 
 /*End of picture CSS*/
 /*Start of footer CSS*/
 
 #Footer {
 	width:100%;
-	height:40px;
+	height:50px;
 	position:relative;
 	bottom:0;
 	background-color: #939090;
@@ -55,7 +65,7 @@ body{
 
 .footermiddle {
 	text-align:left;
-	margin-left:15%;
+	margin-left:13%;
 	position:relative;
 	float:left;
 	bottom:4px;
@@ -63,7 +73,7 @@ body{
 
 .footerright {
 	text-align:left;
-	margin-left:15%;
+	margin-left:10%;
 	position:relative;
 	float:right;
 	right:10%;
@@ -86,7 +96,6 @@ body{
 }
 /* CSS for footer logo*/
 .imagelogo {				 
-	max-width:30%;
 	float:left;
 	left:10%;
 	position:relative;
