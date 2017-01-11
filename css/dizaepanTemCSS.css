@@ -1,4 +1,21 @@
 @charset "utf-8";
+/* CSS Document */
+/* Start of General CSS*/
+html{
+	height:100%;
+	margin:0;
+}
+
+body{
+	width:100%;
+	height:100%;
+	margin:0;
+	margin-bottom:50px;
+}
+
+.content{
+	min-height:100%;
+}
 
 /*Start of picture CSS*/
 
