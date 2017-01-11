@@ -13,6 +13,20 @@
 	<!-- Bootstrap --> 
 	<link href="../css/bootstrap.css" rel="stylesheet">
 	<link href="../css/dizaepanTemCSS.css" rel="stylesheet" type="text/css">
+	<style type="text/css">
+	a:link {
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+a:active {
+	text-decoration: none;
+}
+    </style>
 
 	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -84,10 +98,8 @@
       <!-- /.container-fluid -->
       <img src="../Images/Images/Banner.png" alt="" id="banner"/>
     </nav>
-    
-  <p> &nbsp;</p> 
+  <p>&nbsp; </p> 
   </div>
-<<<<<<< HEAD
    
   <!-- TemplateBeginEditable name="EditRegion1" -->EditRegion1<!-- TemplateEndEditable -->
  </div>
@@ -114,9 +126,5 @@
 </table>
 </div>
 </div>
-=======
-<!-- TemplateBeginEditable name="EditRegion1" -->EditRegion1<!-- TemplateEndEditable -->
-    
->>>>>>> origin/master
   </body>
 </html>
