@@ -38,10 +38,15 @@
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#defaultNavbar1"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
-          <a class="navbar-brand" href="#"> <img src="../Images/Images/Logo image edited.png" width="200" height="40" alt=""/></a></div>
+          <a class="navbar-brand" href="#"> <img src="../Images/Images/Logo image.png" width="200" height="30" alt=""/></a></div>
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="defaultNavbar1">
-
+<form class="navbar-form navbar-left" role="search">
+          <div class="form-group">
+              <input type="text" class="form-control" placeholder="Search">
+          </div>
+            <button type="submit" class="btn btn-default">Submit</button>
+          </form>
           <ul class="nav navbar-nav navbar-right">
             <li><a href="#">Home</a></li>
             <li><a href="#">About us</a></li>
@@ -67,8 +72,8 @@
             <li><a href="#">Fashion Show</a></li>
             <li><a href="#">Event</a></li>
             <li><a href="#">F.A.Q</a></li>
-            <li><a href="#">Contact Us</a></li>
-            <li><a href="#">Online Order</a></li>
+            <li><a href="#">Contact us</a></li>
+            <li><a href="#">Online order</a></li>
             <li><a href="#"><img src="../Images/Images/facebook.png" alt="" id="logo2"/></a></li>
             <li><a href="#"><img src="../Images/Images/instagram-logo.jpg" alt=""id="logo2"/></a></li>
             <li><a href="#"><img src="../Images/Images/Twitter_logo.png"  alt="" id="logo2"/></a></li>
@@ -82,6 +87,7 @@
     
   <p> &nbsp;</p> 
   </div>
+<<<<<<< HEAD
    
   <!-- TemplateBeginEditable name="EditRegion1" -->EditRegion1<!-- TemplateEndEditable -->
  </div>
@@ -108,5 +114,9 @@
 </table>
 </div>
 </div>
+=======
+<!-- TemplateBeginEditable name="EditRegion1" -->EditRegion1<!-- TemplateEndEditable -->
+    
+>>>>>>> origin/master
   </body>
 </html>

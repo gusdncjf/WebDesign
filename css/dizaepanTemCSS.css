@@ -1,4 +1,5 @@
 @charset "utf-8";
+<<<<<<< HEAD
 /* CSS Document */
 /* Start of General CSS*/
 html{
@@ -24,6 +25,8 @@ body{
 
 /*Start of picture CSS*/
 
+=======
+>>>>>>> origin/master
 #bgpic {
 	height: auto;
 	width: 100%;
@@ -38,6 +41,7 @@ body{
 #logo2 {
 	width: 30px;
 	height: 30px;
+<<<<<<< HEAD
 }
 #banner {
 	width: 100%;
@@ -102,3 +106,6 @@ body{
 	padding-bottom: 20px;
 }
 /*End of footer CSS*/
+=======
+}
+>>>>>>> origin/master
