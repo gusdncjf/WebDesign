@@ -1,4 +1,7 @@
 @charset "utf-8";
+
+/*Start of picture CSS*/
+
 #bgpic {
 	height: auto;
 	width: 100%;
@@ -14,3 +17,62 @@
 	width: 30px;
 	height: 30px;
 }
+
+/*End of picture CSS*/
+/*Start of footer CSS*/
+
+#Footer {
+	width:100%;
+	height:40px;
+	position:relative;
+	bottom:0;
+	background-color: #939090;
+	color:#ffffff;
+	left:0;
+	right:0;
+	margin-top:5%;
+	padding-top:1em;
+	padding-bottom:1em;
+	overflow:hidden;
+}
+
+.footermiddle {
+	text-align:left;
+	margin-left:15%;
+	position:relative;
+	float:left;
+	bottom:4px;
+}
+
+.footerright {
+	text-align:left;
+	margin-left:15%;
+	position:relative;
+	float:right;
+	right:10%;
+	top:-5px;
+}
+ /*footer table*/
+#table1 {		
+	text-align:center;
+	width:22em;
+	position:relative;
+	top:1px;
+	font-family: 'Arvo', serif;
+	font-size:20px;
+	FONT-WEIGHT:bold;
+}
+
+#table1 td {
+	text-align:center;
+	width:50px;
+}
+/* CSS for footer logo*/
+.imagelogo {				 
+	max-width:30%;
+	float:left;
+	left:10%;
+	position:relative;
+	padding-bottom: 20px;
+}
+/*End of footer CSS*/
