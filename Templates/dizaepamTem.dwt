@@ -94,9 +94,13 @@ a:active {
     </nav>
   <p>&nbsp; </p> 
   </div>
-   
+   <div id="maincontent">
+   <p>&nbsp; </p> 
   <!-- TemplateBeginEditable name="EditRegion1" -->EditRegion1<!-- TemplateEndEditable -->
+  <p>&nbsp; </p> 
+  </div>
  </div>
+ <div>&nbsp;</div>
 
   <div id="Footer">
   <a href="#"><img src="../Images/Images/Logo image.png" width="200" height="50" alt="" class=" imagelogo"/></a>
