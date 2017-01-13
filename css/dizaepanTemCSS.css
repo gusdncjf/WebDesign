@@ -179,3 +179,102 @@ body{
 	
 }
 /*End of About Us CSS*/
+
+/*Start of CSS for contactus.html*/
+#contactmain{
+	float:left;
+	width: 25%;
+	margin-left:22%;
+	margin-right:auto;
+	margin-top:2%;
+	font-family: 'Indie Flower', cursive;
+}
+
+#contactmain span{
+	font-family:'Indie Flower', cursive;
+	font-style: italic;
+	color: #455AD7;
+}
+
+#contactmain h1{
+	font-size: 36px;
+}
+/* Paragraph for contactus.html*/
+.pContactUs{		
+	width:40%;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:4%;
+	line-height:3em;
+	font-family: 'Arvo', serif;
+	font-size: 20px;
+	float:left;
+}
+
+.pContactUs2{
+	text-align: center;
+	margin-bottom:5%;
+	font-size: 30px;
+	color: #091A2D;
+	font-family: 'Baloo Tamma', cursive;
+}
+
+.pContactMap{
+	float:right;
+	width:25%;
+	margin-right:23%;
+	margin-top:3%;
+}
+
+.gmap2{
+	position:relative;
+	display: inline-block;
+	margin-left:auto;
+	margin-right:auto;
+	width:30em;
+	height:25em;
+	frameborder:0;
+	border:0;
+}
+.feedbackform {
+	width:50%;
+	margin-top:10%;
+	margin-left:auto;
+	margin-right:auto;
+	padding-top:5%;
+	border-radius:5px;
+	min-width:500px;
+	background-color: #4EE3AD;
+	line-height: 200%;
+	font-family: 'Indie Flower', cursive;
+	font-size: 15px;
+	clear:both;
+}
+
+.feedbackform h2 {
+	text-align: center;
+	padding-top:1%;
+	font-size: 40px;
+	font-weight: bold;
+	font-family: 'Indie Flower', cursive;
+	color: #3A91ED;
+}
+
+#feedbacktable {
+	position:relative;
+	width:70%;
+	margin-left:auto;
+	margin-right:auto;
+	padding-bottom:1%;
+}
+
+#feedbacktable span {
+	color:#455AD7
+}
+
+#feedbackButton{
+	align-content: center;
+	margin-right:auto;
+	margin-left:auto;
+}
+/*End of CSS for contactus*/
