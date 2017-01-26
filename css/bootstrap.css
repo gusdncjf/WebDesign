@@ -1269,7 +1269,8 @@ h6 .small,
 }
 h1,
 .h1 {
-  font-size: 36px;
+	font-size: 36px;
+	text-align: center;
 }
 h2,
 .h2 {
@@ -1277,7 +1278,10 @@ h2,
 }
 h3,
 .h3 {
-  font-size: 24px;
+	font-size: 24px;
+	text-align: center;
+	font-family: inherit;
+	font-style: oblique;
 }
 h4,
 .h4 {
