@@ -326,3 +326,51 @@ body{
 	font-weight:bold;
 	color: #039
 }
+/*End of CSS for onlineOrder*/
+
+/*Start of CSS for FAQ*/
+.faq1{
+	text-align: center;
+	width:70%;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:5%;
+	margin-bottom:5%;
+}
+.faq1 h1 {
+	font-size: 50px;
+	font-family: 'Indie Flower', cursive;
+	font-weight: bold;
+}
+.faq2{		/*Structure of the body of the faq.html page*/
+	text-align: left;
+	width:60%;
+	margin-left:18%;
+	margin-right:70%;
+	margin-top:3%;
+	margin-bottom:3%;
+}
+
+.faq2 h2{
+	font-size:58px;
+	margin-left:10%;
+	margin-right:auto;
+    color:#573280;
+	font-family:Minimal;
+	font-weight:bold;
+}
+.faqTex1{
+	font-size:30px;
+	margin-left:10%;
+	margin-right:auto;
+	font-family:Minimal;
+	font-weight:bold;
+	text-align:center;
+}
+.faqTex2{
+	font-size:20px;
+	margin-left:5%;
+	margin-right:auto;
+	font-family:Minimal;
+	font-weight:bold;
+}
