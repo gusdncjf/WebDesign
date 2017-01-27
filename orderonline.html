@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en"><!-- InstanceBegin template="/Templates/diazepamTem.dwt" codeOutsideHTMLIsLocked="false" -->
+<html lang="en"><!-- InstanceBegin template="C:\Users\WOOCHUL HYUN\Desktop\WebDesign\Templates\diazepamTem.dwt" codeOutsideHTMLIsLocked="false" -->
   <head>
     <meta charset="utf-8">
        <meta name="viewport" 
@@ -35,6 +35,88 @@ a:active {
 		  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 		<![endif]-->
   <!-- InstanceBeginEditable name="head" -->
+  <script type="text/JavaScript">
+        var Cost;
+
+function tally()
+        {
+        Cost = 0;
+        if (document.orderform.Item1.checked) { Cost = Cost + 4.99;}
+        if (document.orderform.Item2.checked) { Cost = Cost + 4.99;}
+        if (document.orderform.Item3.checked) { Cost = Cost + 4.99;}
+        if (document.orderform.Item4.checked) { Cost = Cost + 4.99;}
+        if (document.orderform.Item5.checked) { Cost = Cost + 4.99;}
+        if (document.orderform.Item6.checked) { Cost = Cost + 4.99;}
+        if (document.orderform.Item7.checked) { Cost = Cost + 4.99;}
+        if (document.orderform.Item8.checked) { Cost = Cost + 4.99;}
+       	if (document.orderform.Item9.checked) {  Cost = Cost + 6.99;}
+	   	if (document.orderform.Item10.checked) {  Cost = Cost + 6.99;}
+		if (document.orderform.Item11.checked) {  Cost = Cost + 6.99;}
+		if (document.orderform.Item12.checked) {  Cost = Cost + 6.99;}
+		if (document.orderform.Item13.checked) {  Cost = Cost + 6.99;} 
+		if (document.orderform.Item14.checked) {  Cost = Cost + 40;}
+		if (document.orderform.Item15.checked) {  Cost = Cost + 5;}	
+		if (document.orderform.Item16.checked) {  Cost = Cost + 35;}
+		if (document.orderform.Item17.checked) {  Cost = Cost + 5;}
+		if (document.orderform.Item18.checked) {  Cost = Cost + 35;}
+		if (document.orderform.Item19.checked) {  Cost = Cost + 5;}
+		if (document.orderform.Item20.checked) {  Cost = Cost + 35;}
+		if (document.orderform.Item21.checked) {  Cost = Cost + 5;}
+		if (document.orderform.Item22.checked) {  Cost = Cost + 35;}
+		if (document.orderform.Item23.checked) {  Cost = Cost + 5;}
+		if (document.orderform.Item24.checked) {  Cost = Cost + 3.49;}
+		if (document.orderform.Item25.checked) {  Cost = Cost + 3.49;}
+		if (document.orderform.Item26.checked) {  Cost = Cost + 3.49;}
+		if (document.orderform.Item27.checked) {  Cost = Cost + 3.49;}
+		if (document.orderform.Item28.checked) {  Cost = Cost + 3.49;}
+		if (document.orderform.Item29.checked) {  Cost = Cost + 2.99;}
+		if (document.orderform.Item30.checked) {  Cost = Cost + 2.99;}
+		if (document.orderform.Item31.checked) {  Cost = Cost + 2.99;}
+		if (document.orderform.Item32.checked) {  Cost = Cost + 2.99;}
+		if (document.orderform.Item33.checked) {  Cost = Cost + 2.99;}
+		if (document.orderform.Item34.checked) {  Cost = Cost + 1.99;}
+		if (document.orderform.Item35.checked) {  Cost = Cost + 1.99;}
+		if (document.orderform.Item36.checked) {  Cost = Cost + 1.99;}
+		if (document.orderform.Item37.checked) {  Cost = Cost + 1.99;}
+		if (document.orderform.Item38.checked) {  Cost = Cost + 0.99;}
+		if (document.orderform.Item39.checked) {  Cost = Cost + 5.99;}
+		if (document.orderform.Item40.checked) {  Cost = Cost + 5.99;}
+		if (document.orderform.Item41.checked) {  Cost = Cost + 5.99;}
+		if (document.orderform.Item42.checked) {  Cost = Cost + 5.99;}
+		if (document.orderform.Item43.checked) {  Cost = Cost + 5.99;}
+		
+       
+
+        Cost = dollar(Cost);
+       
+
+        document.orderform.Total.value = "$" + Cost;
+        
+        }
+
+function dollar (amount)
+{
+        amount = parseInt(amount * 100);
+        amount = parseFloat(amount/100);
+        if (((amount) == Math.floor(amount)) && ((amount - Math.floor (amount)) == 0))
+        {
+                amount = amount + ".00"
+                return amount;
+        }
+        if ( ((amount * 10) - Math.floor(amount * 10)) == 0)
+        {
+                amount = amount + "0";
+                return amount;
+        }
+        if ( ((amount * 100) - Math.floor(amount * 100)) == 0)
+        {
+                amount = amount;
+                return amount;
+        }
+        return amount;
+}
+
+</script>
   <!-- InstanceEndEditable -->
   </head> 
   <body>
@@ -52,7 +134,7 @@ a:active {
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#defaultNavbar1"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
-          <a class="navbar-brand" a href="index.html"><img src="Images/Images/Logo image edited.png" width="200" height="40" alt=""/></a></div>
+          <a class="navbar-brand" a href="index.html"><img src="Images/Images/Logo%20image%20edited.png" width="200" height="40" alt=""/></a></div>
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="defaultNavbar1">
          <form class="navbar-form navbar-left" role="search">
@@ -63,34 +145,34 @@ a:active {
         </form>
           <ul class="nav navbar-nav navbar-right">
             <li><a href="index.html">Home</a></li>
-            <li><a href="#">About us</a></li>
+            <li><a href="AboutUs.html">About us</a></li>
             <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Products<span class="caret"></span></a>
               <ul class="dropdown-menu" role="menu">
                 <li><a href="#">Ice-cream – single/double scoop (different flavours)</a></li>
                 <li class="divider"></li>
-                <li><a href="#">Waffle ice-cream</a></li>
+                <li><a href="products-WaffleIcecream.html">Waffle ice-cream</a></li>
                 <li class="divider"></li>
-                <li><a href="#">Ice-cream cake</a></li>
+                <li><a href="products-IcecreamCake.html">Ice-cream cake</a></li>
                 <li class="divider"></li>
-                <li><a href="#">Fried ice-cream</a></li>
+                <li><a href="products-friedicecream.html">Fried ice-cream</a></li>
                 <li class="divider"></li>
-                <li><a href="#">Ice-cream cookies</a></li>
+                <li><a href="products-IcecreamCookies.html">Ice-cream cookies</a></li>
                 <li class="divider"></li>
-                <li><a href="#">Ice-cream sundae – mix & match</a></li>
+                <li><a href="products-IcecreamSundae.html">Ice-cream sundae – mix & match</a></li>
                 <li class="divider"></li>
-                <li><a href="#">Ice-cream float – drink of your choice</a></li>
+                <li><a href="products-IcecreamFloat.html">Ice-cream float – drink of your choice</a></li>
                 
               </ul>
             </li>
-            <li><a href="#">Service</a></li>
+            <li><a href="services.html">Service</a></li>
             <li><a href="#">Fashion Show</a></li>
             <li><a href="#">Event</a></li>
             <li><a href="#">F.A.Q</a></li>
-            <li><a href="#">Contact us</a></li>
-            <li><a href="#">Online order</a></li>
-            <li><a href="#"><img src="Images/Images/facebook.png" alt="" id="logo2"/></a></li>
-            <li><a href="#"><img src="Images/Images/instagram-logo.jpg" alt=""id="logo2"/></a></li>
-            <li><a href="#"><img src="Images/Images/Twitter_logo.png"  alt="" id="logo2"/></a></li>
+            <li><a href="contactUs.html">Contact us</a></li>
+            <li><a href="orderonline.html">Online order</a></li>
+            <li><a href="https://en-gb.facebook.com/" target="_blank"><img src="Images/Images/facebook.png" alt="" id="logo2"/></a></li>
+            <li><a href="https://www.instagram.com/" target="_blank"><img src="Images/Images/instagram-logo.jpg" alt=""id="logo2"/></a></li>
+            <li><a href="https://twitter.com/?lang=en" target="_blank"><img src="Images/Images/Twitter_logo.png"  alt="" id="logo2"/></a></li>
           </ul>
         </div>
         <!-- /.navbar-collapse -->
@@ -102,26 +184,187 @@ a:active {
   </div>
    <div id="maincontent">
    <p>&nbsp; </p> 
-  <!-- InstanceBeginEditable name="EditRegion1" --><!-- InstanceEndEditable -->
+  <!-- InstanceBeginEditable name="EditRegion1" -->
+  <div class="container">
+  <p class="productHeading">Order Now !</p>
+    <form method="post" name="orderform" enctype="text/plain"">
+      <table width="90%" border="0"><tr><td colspan="4">
+        <p class="orderForm"><strong><p class="orderSubtit">Ice Cream Scoop</strong>
+       
+          <p class="orderForm">
+            <input type="checkbox" name="Item1" value="Item1_chosen" onclick="tally()"> 
+            Dark Chocolate ($4.99) 
+            <input type="checkbox" name="Item2" value="Item2_chosen" onclick="tally()"> 
+            Frappuccino ($4.99)
+            <input type="checkbox" name="Item3" value="Item3_chosen" onclick="tally()"> 
+            Grape Nut ($4.99)
+            <input type="checkbox" name="Item4" value="Item4_chosen" onclick="tally()"> 
+            Machiatto ($4.99)
+            <p class="orderForm">
+              <input type="checkbox" name="Item5" value="Item5_chosen" onclick="tally()"> 
+              Oreo Crush ($4.99)
+              <input type="checkbox" name="Item6" value="Item6_chosen" onclick="tally()"> 
+              Salted Caramel ($4.99)
+              <input type="checkbox" name="Item7" value="Item7_chosen" onclick="tally()"> 
+              Sweet Corn ($4.99)
+              <input type="checkbox" name="Item8" value="Item8_chosen" onclick="tally()"> 
+              Vanilla ($4.99)
+            
+              
+               <p class="orderForm"><strong><p class="orderSubtit">Waffle Icecream
+                </strong>
+              <p class="orderForm">
+                <input type="checkbox" name="Item9" value="Item9_chosen" onclick="tally()" />
+                Green Tea Waffle Icecream ($6.99)
+                <input type="checkbox" name="Item10" value="Item10_chosen" onclick="tally()" />
+                Vanilla Waffle Icecream ($6.99)
+                <input type="checkbox" name="Item11" value="Item11_chosen" onclick="tally()" />
+                Chocolate Waffle Icecream ($6.99)
+                <p class="orderForm">
+                <input type="checkbox" name="Item12" value="Item12_chosen" onclick="tally()" />
+                Strawberry Waffle Icecream ($6.99)
+                <input type="checkbox" name="Item13" value="Item13_chosen" onclick="tally()" />
+                Blueberry Waffle icecream ($6.99)
+                
+                
+              <p class="orderForm"><strong><p class="orderSubtit">Icecream Cakes
+                </strong>
+              <p class="orderForm">
+                <input type="checkbox" name="Item14" value="Item14_chosen" onclick="tally()" />
+                Chocolate Malt Cake ($40.00)
+                <input type="checkbox" name="Item15" value="Item14_chosen" onclick="tally()" />
+                Chocolate Malt Cake One Piece ($5.00)
+                <input type="checkbox" name="Item16" value="Item16_chosen" onclick="tally()" />
+                Chocolate Swirl Cake ($35.00)
+                <p class="orderForm">
+                <input type="checkbox" name="Item17" value="Item17_chosen" onclick="tally()" />
+                Chocolate Swirl Cake One Piece ($5.00)
+                <input type="checkbox" name="Item18" value="Item18_chosen" onclick="tally()" />
+                Oreo Chocolate Cake ($35.00)
+                <input type="checkbox" name="Item19" value="Item19_chosen" onclick="tally()" />
+                Oreo Chocolate Cake One Piece ($5.00)
+                <p class="orderForm">
+                <input type="checkbox" name="Item20" value="Item20_chosen" onclick="tally()" />
+                Ferrero Roucher Cake ($35.00)
+                <input type="checkbox" name="Item21" value="Item21_chosen" onclick="tally()" />
+                Ferrero Roucher Cake One Piece ($5.00)
+                <input type="checkbox" name="Item22" value="Item22_chosen" onclick="tally()" />
+                Mocha Marble Cake ($35.00)
+                <p class="orderForm">
+                <input type="checkbox" name="Item23" value="Item23_chosen" onclick="tally()" />
+                Mocha Marble Cake One Piece ($5.00)
+                
+                
+              <p class="orderForm"><strong><p class="orderSubtit">Fried Ice Creams         
+                    </strong>
+              <p class="orderForm">
+                <input type="checkbox" name="Item24" value="Item24_chosen" onclick="tally()" />
+                Fried Icecream Ball ($3.49)
+                <input type="checkbox" name="Item25" value="Item25_chosen" onclick="tally()" />
+                Fried chocolate Icecream ($3.49)
+                <input type="checkbox" name="Item26" value="Item26_chosen" onclick="tally()" />
+                Strawberry Fried Icecream ($3.49)
+                <p class="orderForm">
+                 <input type="checkbox" name="Item27" value="Item27_chosen" onclick="tally()" />
+                Fried Green Tea Icecream Ball ($3.49)
+                 <input type="checkbox" name="Item28" value="Item28_chosen" onclick="tally()" />
+                Fried Greem Tea Icecream ($3.49)
+                
+                
+              <p class="orderForm"><strong><p class="orderSubtit">Icecream Cookies          
+                        </strong>
+             <p class="orderForm">
+                <input type="checkbox" name="Item29" value="Item29_chosen" onclick="tally()" />
+                Icecream Chocolate Chip ($2.99)
+                <input type="checkbox" name="Item30" value="Item30_chosen" onclick="tally()" />
+                Crunchy Icecream Cookies ($2.99)
+                <input type="checkbox" name="Item31" value="Item31_chosen" onclick="tally()" />
+                Icecream Hot Fudge ($2.99)
+                <p class="orderForm">
+                 <input type="checkbox" name="Item32" value="Item32_chosen" onclick="tally()" />
+                Icecream Oreo Crumb ($2.99)
+                 <input type="checkbox" name="Item33" value="Item33_chosen" onclick="tally()" />
+                Icecream Vanilla Cookies ($2.99)
+                
+                                       
+              <p class="orderForm"><strong><p class="orderSubtit">Icecream Sundae</strong>
+             <p class="orderForm">
+                <input type="checkbox" name="Item34" value="Item34_chosen" onclick="tally()" />
+                Brownie Sundae ($1.99)
+                <input type="checkbox" name="Item35" value="Item35_chosen" onclick="tally()" />
+                Caramal Sundae ($1.99)
+                <input type="checkbox" name="Item36" value="Item36_chosen" onclick="tally()" />
+                Chocolate Sundae ($1.99)
+                <p class="orderForm">
+                 <input type="checkbox" name="Item37" value="Item37_chosen" onclick="tally()" />
+                Starwberry Sundae ($1.99)
+                 <input type="checkbox" name="Item38" value="Item38_chosen" onclick="tally()" />
+                Vanilla Sundae ($0.99)
+              
+              
+              <p class="orderForm"><strong><p class="orderSubtit">Icecream Floats</strong>
+             <p class="orderForm">
+                <input type="checkbox" name="Item39" value="Item39_chosen" onclick="tally()" />
+                Blueberry Icecream Float ($5.99)
+                <input type="checkbox" name="Item40" value="Item40_chosen" onclick="tally()" />
+                Chocolate Icecream Float ($5.99)
+                <input type="checkbox" name="Item41" value="Item41_chosen" onclick="tally()" />
+                Vanilla Icecream Float ($5.99)
+                <p class="orderForm">
+                 <input type="checkbox" name="Item42" value="Item42_chosen" onclick="tally()" />
+                Strawberry Icecream Float ($5.99)
+                 <input type="checkbox" name="Item43" value="Item43_chosen" onclick="tally()" />
+                Green Tea Icecream Float ($5.99)
+              <p class="orderForm"></td></tr>
+              
+              
+        <tr><td width="201" class="orderForm"> Total <input type="text" name="Total" value="$0" size="7"></td>
+          <td width="293" class="orderFormText">&nbsp;</td>
+          <td colspan="2" class="orderFormText">&nbsp;</td></tr>
+        <tr>
+          <td>&nbsp;</td><tr>
+            <td class="orderForm">First Name*:</td><td colspan="3"><input name="FirstName" type="Text" required size="30" maxlength="30"></td></tr>
+        <tr>
+          <td class="orderForm">LastName*:</td>
+          <td colspan="3" class="orderFormText"><input name="LastName" type="Text" required size="30" maxlength="30"></td></tr>
+        <tr><td class="orderForm">Address*</td><td><input name="Street" type="Text" required size="40" maxlength="40"></td></tr>
+        <tr><td class="orderForm">City</td><td><input type="Text" name="City" size="20" maxlength="20"></td><td width="178" class="orderFormText">Province/State:</td>
+          <td width="260"><input type="Text" name="Province" size="20" maxlength="40"></td></tr>
+        <tr><td class="orderForm">Country:</td><td><input type="Text" name="Country" size="20" maxlength="20"></td><td class="orderFormText">Code:</td>
+          <td><input type="Text" name="Code" size="9" maxlength="10"></td></tr>
+        <tr> <td class="orderForm">Phone*:</td><td><input name="Area" type="Text" required size="3" maxlength="5"> <input name="Phone" type="Text" required size="8" maxlength="10"></td><td class="orderFormText">Fax:</td>
+          <td><input type="Text" name="AreaFax" size="3" maxlength="5"> <input type="Text" name="Fax" size="8" maxlength="10"></td></tr>
+        <tr><td class="orderForm">Email Address:</td><td colspan=2><input type="Text" name="Email" size="30" maxlength="30"></td></tr>
+        <tr>
+                <td class="orderForm">Additional Comments:</td>
+                <td><textarea maxlength="100" rows="5" cols="31"></textarea></td>
+            </tr>
+            <tr>
+        <tr><td colspan="4" height="3"><hr></td></tr>
+        <tr><td colspan="2" align="center"><input type="Submit" value="Send Order"></td>
+        <td colspan="2" align="center"> <input type="RESET" value="Reset Order"></td></tr> </table>
+    </form></CENTER>
+  </div>
+	<!-- InstanceEndEditable -->
   <p>&nbsp; </p> 
   </div>
  </div>
  <div>&nbsp;</div>
 
   <div id="Footer">
-  <a href="#"><img src="Images/Images/Logo image.png" width="200" height="50" alt="" class=" imagelogo"/></a>
+  <a href="#"><img src="Images/Images/Logo%20image.png" width="200" height="50" alt="" class=" imagelogo"/></a>
 <p class="footermiddle">&copy; 2016 Diazepam. All rights reserved</p>
   <div class="footerright">
 <table class="table1">
   <tbody>
     <tr>
-      <td><a href="#">Contact us</a></td>
+      <td><a href="contactUs.html">Contact us</a></td>
       <td>&nbsp; &nbsp;</td>
-      <td><a href="#"><img src="Images/Images/facebook.png" alt="" id="logo2"/></a></td>
+      <td><a href="https://en-gb.facebook.com/" target="_blank"><img src="Images/Images/facebook.png" alt="" id="logo2"/></a></td>
       <td>&nbsp; &nbsp;</td>
-      <td><a href="#"><img src="Images/Images/instagram-logo.jpg" alt=""id="logo2"/></a></td>
+      <td><a href="https://www.instagram.com/" target="_blank"><img src="Images/Images/instagram-logo.jpg" alt=""id="logo2"/></a></td>
       <td>&nbsp; &nbsp;</td>
-      <td><a href="#"><img src="Images/Images/Twitter_logo.png"  alt="" id="logo2"/></a></td>
+      <td><a href="https://twitter.com/?lang=en" target="_blank"><img src="Images/Images/Twitter_logo.png"  alt="" id="logo2"/></a></td>
       <td>&nbsp; &nbsp;</td>
       <td><a href="#">To Top</a></td>
       

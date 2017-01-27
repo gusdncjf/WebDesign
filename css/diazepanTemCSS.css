@@ -200,33 +200,15 @@ body{
 	font-size: 36px;
 }
 /* Paragraph for contactus.html*/
-.pContactUs{		
-	width:40%;
-	margin-left:auto;
-	margin-right:auto;
-	margin-top:4%;
-	line-height:3em;
-	font-family: 'Arvo', serif;
-	font-size: 20px;
-	float:left;
-}
 
-.pContactUs2{
-	text-align: center;
-	margin-bottom:5%;
-	font-size: 30px;
-	color: #091A2D;
-	font-family: 'Baloo Tamma', cursive;
-}
-
-.pContactMap{
+.ContactMap{
 	float:right;
 	width:25%;
 	margin-right:23%;
 	margin-top:3%;
 }
 
-.gmap2{
+.gmap{
 	position:relative;
 	display: inline-block;
 	margin-left:auto;
@@ -316,3 +298,31 @@ body{
 	min-width:300px;
 }
 /*End of CSS for services*/
+
+/*Start of CSS for onlineOrder*/
+.productHeading {
+	font-family: "Kool Beans";
+	font-size: 56px;
+	color: #039;
+	font-weight: 900;
+	text-align: left;
+	padding-left: 40px;
+	margin-top:25px;
+}
+.orderForm{
+	font-family:Minimal;
+	font-size:18px;
+	font-weight:bold;
+	padding-left:40px;
+}
+.orderFormText{
+	font-family:Minimal;
+	font-size:18px;
+	font-weight:bold;
+}
+.orderSubtit{
+	font-size:25px;
+	font-family:Minimal;
+	font-weight:bold;
+	color: #039
+}
