@@ -66,7 +66,7 @@ a:active {
             <li><a href="../AboutUs.html">About us</a></li>
             <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Products<span class="caret"></span></a>
               <ul class="dropdown-menu" role="menu">
-                <li><a href="#">Ice-cream – single/double scoop (different flavours)</a></li>
+                <li><a href="../products-IcecreamScoop.html">Ice-cream – single/double scoop (different flavours)</a></li>
                 <li class="divider"></li>
                 <li><a href="../products-WaffleIcecream.html">Waffle ice-cream</a></li>
                 <li class="divider"></li>
@@ -83,8 +83,7 @@ a:active {
               </ul>
             </li>
             <li><a href="../services.html">Service</a></li>
-            <li><a href="#">Fashion Show</a></li>
-            <li><a href="#">Event</a></li>
+            <li><a href="../event.html">Event</a></li>
             <li><a href="../faq.html">F.A.Q</a></li>
             <li><a href="../contactUs.html">Contact us</a></li>
             <li><a href="../orderonline.html">Online order</a></li>
